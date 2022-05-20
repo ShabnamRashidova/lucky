@@ -760,6 +760,7 @@ width: 100%;
 /********************************CART************************************/
 .cart{
   padding: 70px;
+  background-color: var(--primary-bg-color);
 }
 .cart .counter {
   margin-top: 20px;
@@ -768,7 +769,7 @@ width: 100%;
 .cart .delete-btn{
   cursor: pointer;
 }
-.cart .counter input {
+.cart .counter input,.cart-mobile .counter input  {
  background-color: var(--primary-color);
 border-radius: 4px;
   color: #fff;
@@ -777,15 +778,29 @@ font-size: 22px;
   text-align: center;
   margin: 0 4px;
 }
-.cart .counter button {
+.cart .counter button ,.cart-mobile .counter button {
 border: 1px solid var(--primary-color);
-
-
 border-radius: 3px;
   color: #333;
   font-size: 20px;
   width: 30px;
   text-align: center;
+}
+/*******************cart -mobile*********/
+.cart-mobile{
+  display: none;
+}
+.cart-mobile .mobile-btn-delete{
+background-color:#DC3545;
+width: 150px;
+height: 45px;
+border-radius: 3px;
+transition: var(--general-transition);
+color: #fff;
+}
+.cart-mobile .mobile-btn-delete:hover{
+background-color:#23272B;
+
 }
 /************************product-categories*******************************/
 .product-categories .slider {

@@ -150,6 +150,12 @@
   .section-1 .section-left {
    display: none;
   }
+  .cart{
+    display: none;
+  }
+  .cart-mobile{
+    display: block;
+  }
 }
 @media (max-width: 1200px) {
   :root {
