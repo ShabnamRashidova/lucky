@@ -46,3 +46,6 @@ $(".menu-button").on("click", () => {
   $(".menu-button .fa-solid").toggleClass("fa-times");
 });
 
+$(".header-categories").on("click",()=>{
+  $(".category-content").toggleClass("show")
+})
