@@ -761,6 +761,32 @@ width: 100%;
 .cart{
   padding: 70px;
 }
+.cart .counter {
+  margin-top: 20px;
+
+}
+.cart .delete-btn{
+  cursor: pointer;
+}
+.cart .counter input {
+ background-color: var(--primary-color);
+border-radius: 4px;
+  color: #fff;
+font-size: 22px;
+  width: 35px;
+  text-align: center;
+  margin: 0 4px;
+}
+.cart .counter button {
+border: 1px solid var(--primary-color);
+
+
+border-radius: 3px;
+  color: #333;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+}
 /************************product-categories*******************************/
 .product-categories .slider {
   -webkit-appearance: none;

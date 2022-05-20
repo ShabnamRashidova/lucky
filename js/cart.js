@@ -16,8 +16,14 @@ class UI {
         <td><img class="img-fluid w-25" src="${shopping.image}"/></td>
         <td>${shopping.name}</td>
         <td>${shopping.price}</td>
-        <td>4</td>
-        <td>mavi</td>
+        <td>
+        <div class="counter d-flex">
+        <button class="increase">+</button>
+        <input typ="number" value="1">
+        <button class="decrease">-</but>
+        </div>
+        </td>
+        <td>-</td>
         <td>${shopping.price}</td>
         <td><i class="fas fa-times bg-danger text-white p-2 delete-btn"></i></td>
         `;
